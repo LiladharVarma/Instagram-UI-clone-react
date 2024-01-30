@@ -1,9 +1,9 @@
 import React from "react";
-import PostCard from "./PostCard";
+// import PostCard from "./PostCard";
 import FeedPosts from "../FeedPosts/FeedPosts";
-import Stack from "@mui/material/Stack";
+// import Stack from "@mui/material/Stack";
 import { Box } from "@mui/material";
-import { Feed } from "@mui/icons-material";
+// import { Feed } from "@mui/icons-material";
 import SuggestedUsers from "../SuggestedUsers/SuggestedUsers";
 
 function HomePage() {

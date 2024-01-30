@@ -1,7 +1,7 @@
 import React, { useState } from "react" ; 
 import { Outlet } from "react-router-dom";
 import Sidebar from "../../Sidebar/Sidebar";
-import { Flag } from "@material-ui/icons";
+// import { Flag } from "@material-ui/icons";
 import CreatePage from "../../CreatePage/CreatePage";
 
 function PageLayout({getNavState}){

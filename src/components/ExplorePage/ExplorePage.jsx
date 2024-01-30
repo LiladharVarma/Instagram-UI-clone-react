@@ -1,6 +1,6 @@
 import Card from "./Card";
 import React, { useState, useEffect } from "react";
-import Images from "./imagesfile";
+// import Images from "./imagesfile";
 
 function ExplorePage({ state }) {
   const [data, setData] = useState([]);
