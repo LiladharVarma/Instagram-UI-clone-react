@@ -43,6 +43,7 @@ function ProfilePost({ img, profile }) {
           className="w-80 h-80 object-cover"
           src={img}
           alt="userPosts from Profile "
+          loading="lazy"
         />
 
         {hover && (
@@ -81,6 +82,7 @@ function ProfilePost({ img, profile }) {
                 className="object-cover w-[330px] max-w-full h-auto"
                 src={img}
                 alt="Image in modal"
+                loading="lazy"
               />
 
               {/* sm:bg-yellow-300  lg:bg-sky-400 max-sm:bg-red-500 md:bg-orange-400 3xl:bg-pink-500 2xl:bg-lime-500 */}
