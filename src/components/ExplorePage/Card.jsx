@@ -22,6 +22,7 @@ function Card({ imgUrl, id }) {
           alt="explore Images"
           onClick={handleClick}
           key={id}
+          loading="lazy"
         />
       </div>
       <Modal
@@ -43,6 +44,7 @@ function Card({ imgUrl, id }) {
               className="object-cover w-[330px] max-w-full h-auto"
               src={imgUrl}
               alt="explore Images"
+              loading="lazy"
             />
           </div>
         </div>

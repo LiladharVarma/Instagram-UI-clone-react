@@ -12,6 +12,7 @@ const FeedPost = ({ profilePhoto, userName, postUrl, caption }) => {
             src={postUrl}
             alt="feed post"
             className="w-full h-full object-cover"
+            loading="lazy"
           />
         </div>
         <PostFooter profileName={userName} photoCaption={caption} />
