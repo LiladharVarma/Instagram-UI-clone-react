@@ -10,7 +10,7 @@ Welcome to the Instagram UI Clone project! This project is a `React` application
 - Explore Section with API Integration: The explore section is enriched with random photos fetched from an integrated API, providing a dynamic and engaging 
   experience.
 ## Try it Here
-Explore the Weather App on the deployed website: [Clone Demo](https://instagram-ui-clone-react.netlify.app/)
+Explore the Weather App on the deployed website: [Clone Demo](https://instagram-ui-clone.netlify.app/)
 
 ## Getting Started
 
